@@ -1,0 +1,23 @@
+name: Generate Maeul Terrain
+on:
+  schedule:
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: t1seo/github-profile-maeul@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          hemisphere: north
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update maeul terrain'

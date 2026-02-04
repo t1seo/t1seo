@@ -1,4 +1,4 @@
-name: Generate Maeul Terrain
+name: Generate Maeul in the Sky Terrain
 on:
   schedule:
     - cron: '0 18 * * *'
@@ -13,11 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: t1seo/github-profile-maeul@v1
+      - uses: t1seo/maeul-in-the-sky@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          hemisphere: north
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: update maeul terrain'
+          commit_message: 'chore: update maeul-in-the-sky terrain'

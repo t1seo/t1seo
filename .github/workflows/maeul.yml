@@ -13,12 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: t1seo/maeul-in-the-sky@05a10eff07575acf2c81adcd66a66bc501507217
+      - uses: t1seo/maeul-in-the-sky@9035488ede8aaa53f3f60cab86d08c45bac88289
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           village_style: 'korean'
           art_style: 'miniature'
           density: '6'
+          write_snapshot: 'true'
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:

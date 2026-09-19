@@ -13,13 +13,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: t1seo/maeul-in-the-sky@f62be79b2bdfdac9567698a05a9b40e631ff07f3
+      - uses: t1seo/maeul-in-the-sky@21c3d22af5a66ecdfbfa02fc781e043475a3efb9
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           village_style: 'korean'
           art_style: 'miniature'
           density: '6'
           write_snapshot: 'true'
+
+      - uses: t1seo/maeul-in-the-sky/profile@21c3d22af5a66ecdfbfa02fc781e043475a3efb9
+        with:
+          snapshot_path: 'maeul-in-the-sky.snapshot.json'
+          output_dir: '.'
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:

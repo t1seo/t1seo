@@ -1,0 +1,13 @@
+{
+  "archivedAt": "2026-09-19",
+  "profileCommit": "00172b8fdddd38bb3cef15cadedc4c568a4702c6",
+  "generatorCommit": "21c3d22af5a66ecdfbfa02fc781e043475a3efb9",
+  "sha256": {
+    "maeul-in-the-sky-world.json": "6a761da3ac979c72a58ecc99c34d893c57452c057ba28d7d85b241bb81b975f5",
+    "maeul-in-the-sky-world-dark.png": "cdf8eeb6be3f3855b49220a1af70991170e6b3f6898a68b5a8504ae30e8e652f",
+    "maeul-in-the-sky-world-light.png": "5be8a1f04002cefed5b0c3905f172bceb2c0bd56097301a1829151f15d41dd73",
+    "maeul-in-the-sky.snapshot.json": "f07173d0b6447d8337d8c48963bf11182e1d0a4abfba55a966551bf8136db961",
+    "profile-readme.md": "612c34253c917221997e05ec53e3f9ed166e5e5de65e2061839db73ef71b5607",
+    "maeul-3d.yml": "2ead4b84c35637d8e1700e130389fc5bfc394d5193bf342d2f10e6eef030640d"
+  }
+}

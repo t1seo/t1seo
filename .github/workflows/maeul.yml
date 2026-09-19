@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: t1seo/maeul-in-the-sky@c55a77b012e087ad0ec1e591e68983dbfcb911df
+      - uses: t1seo/maeul-in-the-sky@05a10eff07575acf2c81adcd66a66bc501507217
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           village_style: 'korean'

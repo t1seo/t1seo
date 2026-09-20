@@ -1,0 +1,13 @@
+{
+  "archivedAt": "2026-09-21",
+  "profileCommit": "1e047f2bcdb75142e28636389d05e0b8e0b46011",
+  "generatorCommit": "47df5c54b1d644f9447e1cb2c2e0fb306e8f7d9d",
+  "generatorArchiveRef": "archive/civilization-terrain-2026-09-21",
+  "sha256": {
+    "maeul-in-the-sky-dark.svg": "7e58031cfed6f8598d2b8b03659dc5603ba176f41c5866caef2ae62aa034758a",
+    "maeul-in-the-sky-light.svg": "f6f7cb513674ef6d12211fd03a703da981ba54828841a4c6bfd6e4ce76a53b97",
+    "maeul-in-the-sky.snapshot.json": "0f72da6574a6e105f38f012806db2924dcc9a77f505477865e6bb6ee462dce6b",
+    "profile-readme.md": "795026aaaf69428ebc497cf87fc4068932d22717417e42ef632e1f8430866593",
+    "maeul.yml": "f9613c058c924edb3c7e42c28ddc5a60f0585972ca9c89b2c8225d3bd3e6564e"
+  }
+}

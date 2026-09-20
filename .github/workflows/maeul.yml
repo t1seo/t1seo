@@ -1,4 +1,4 @@
-name: Generate calendar and landscape villages
+name: Generate calendar village
 on:
   schedule:
     - cron: '0 18 * * *'
@@ -29,27 +29,13 @@ jobs:
           density: '6'
           write_snapshot: 'true'
 
-      - name: Generate the landscape from the same contribution snapshot
-        uses: t1seo/maeul-in-the-sky@47df5c54b1d644f9447e1cb2c2e0fb306e8f7d9d
-        with:
-          input: './maeul-in-the-sky.snapshot.json'
-          output_dir: './landscape'
-          terrain_mode: 'landscape'
-          landscape_layout: 'island'
-          preset: 'civilization'
-          layout_seed: '41'
-          motion: 'subtle'
-          write_snapshot: 'true'
-
-      - name: Check both profile images and snapshots
+      - name: Check calendar profile images and snapshot
         run: |
-          for directory in . landscape; do
-            test -s "$directory/maeul-in-the-sky-dark.svg"
-            test -s "$directory/maeul-in-the-sky-light.svg"
-            test -s "$directory/maeul-in-the-sky.snapshot.json"
-          done
+          test -s maeul-in-the-sky-dark.svg
+          test -s maeul-in-the-sky-light.svg
+          test -s maeul-in-the-sky.snapshot.json
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: update landscape and calendar villages'
-          file_pattern: 'maeul-in-the-sky-*.svg maeul-in-the-sky.snapshot.json landscape/*.svg landscape/*.snapshot.json'
+          commit_message: 'chore: update calendar village'
+          file_pattern: 'maeul-in-the-sky-dark.svg maeul-in-the-sky-light.svg maeul-in-the-sky.snapshot.json'

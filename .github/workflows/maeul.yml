@@ -19,11 +19,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Fetch contributions and generate the calendar village
-        uses: t1seo/maeul-in-the-sky@47df5c54b1d644f9447e1cb2c2e0fb306e8f7d9d
+        uses: t1seo/maeul-in-the-sky@v2.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           username: 't1seo'
-          terrain_mode: 'calendar'
           village_style: 'korean'
           art_style: 'miniature'
           density: '6'

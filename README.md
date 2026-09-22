@@ -1,4 +1,4 @@
-<a href="https://t1seo.github.io/maeul-in-the-sky/" aria-label="Open the SVG village studio">
+<a href="https://t1seo.github.io/maeul-in-the-sky/tour/?snapshot=https%3A%2F%2Fraw.githubusercontent.com%2Ft1seo%2Ft1seo%2Fmain%2Fmaeul-in-the-sky.snapshot.json" aria-label="Walk inside this Calendar village in 3D">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./maeul-in-the-sky-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./maeul-in-the-sky-light.svg">
@@ -6,7 +6,9 @@
 </picture>
 </a>
 
-[☀️ Day](https://raw.githubusercontent.com/t1seo/t1seo/main/maeul-in-the-sky-light.svg) · [🌙 Night](https://raw.githubusercontent.com/t1seo/t1seo/main/maeul-in-the-sky-dark.svg) · [🌿 Customize in the SVG studio](https://t1seo.github.io/maeul-in-the-sky/)
+[🚶 Walk inside this village](https://t1seo.github.io/maeul-in-the-sky/tour/?snapshot=https%3A%2F%2Fraw.githubusercontent.com%2Ft1seo%2Ft1seo%2Fmain%2Fmaeul-in-the-sky.snapshot.json) · [☀️ Day](https://raw.githubusercontent.com/t1seo/t1seo/main/maeul-in-the-sky-light.svg) · [🌙 Night](https://raw.githubusercontent.com/t1seo/t1seo/main/maeul-in-the-sky-dark.svg) · [🌿 Customize in the SVG studio](https://t1seo.github.io/maeul-in-the-sky/)
+
+Click the picture to walk inside this same village in 3D. Use WASD to walk, Q/E to turn in place, and drag to look around. Click the map to jump to another part of the village.
 
 The village follows your GitHub theme. Choose Day or Night above to open either version. The studio starts with a sample; import my [snapshot](./maeul-in-the-sky.snapshot.json) to explore this history there.
 
